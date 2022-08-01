@@ -1,0 +1,19 @@
+{
+  "name": "lighttalk",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "node-red" : {
+    "nodes": {
+        "lighttalk": "lighttalk.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mqtt" : "4.3.7"
+  },
+  "author": "jaejin lee",
+  "license": "ISC"
+}
